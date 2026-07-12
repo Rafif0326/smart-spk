@@ -62,15 +62,29 @@ http://localhost/smart_spk
 ---
 
 ## 📸 Screenshots
+## Dashboard
 
-Add screenshots of:
+![Dashboard](images/dashboard.png)
 
-- Login
-- Dashboard
-- Alternative
-- Criteria
-- SMART Calculation
-- Decision Result
+## Alternatif
+
+![Alternatif](images/alternatif.png)
+
+## Kriteria
+
+![Kriteria](images/kriteria.png)
+
+## Nilai
+
+![Nilai](images/nilai.png)
+
+## SMART Calculation
+
+![SMART](images/smart.png)
+
+## Decision Result
+
+![Result](images/hasil.png)
 
 ---
 
