@@ -1,0 +1,430 @@
+/* =====================================================
+   SPK SMART - PREMIUM UI
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+/* =====================================================
+   SIDEBAR
+===================================================== */
+
+.sidebar{
+    position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    height:100vh;
+
+    background:linear-gradient(180deg,#0d6efd,#084298);
+
+    box-shadow:8px 0 25px rgba(0,0,0,.12);
+
+    overflow-y:auto;
+
+    z-index:999;
+}
+
+.logo{
+
+    padding:25px;
+
+    text-align:center;
+
+    color:#fff;
+
+    font-size:23px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    border-bottom:1px solid rgba(255,255,255,.2);
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+    margin-top:25px;
+
+    padding:0;
+
+}
+
+.sidebar ul li{
+
+    margin:8px 12px;
+
+}
+
+.sidebar .nav-link{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    padding:14px 18px;
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
+.sidebar .nav-link i{
+
+    font-size:20px;
+
+    transition:.3s;
+
+}
+
+.sidebar .nav-link:hover{
+
+    background:rgba(255,255,255,.18);
+
+    transform:translateX(8px);
+
+}
+
+.sidebar .nav-link:hover i{
+
+    transform:rotate(-10deg) scale(1.2);
+
+}
+
+.sidebar .nav-link.active{
+
+    background:#fff;
+
+    color:#0d6efd !important;
+
+    border-left:5px solid #ffc107;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+.sidebar .nav-link.active i{
+
+    color:#0d6efd;
+
+}
+
+.sidebar .nav-link:focus{
+
+    outline:none;
+
+}
+
+/* =====================================================
+   CONTENT
+===================================================== */
+
+.content{
+
+    margin-left:250px;
+
+    padding:35px;
+
+}
+
+/* =====================================================
+   TITLE
+===================================================== */
+
+h1,h2,h3,h4{
+
+    color:#1b3b6f;
+
+    font-weight:700;
+
+}
+
+/* =====================================================
+   CARD
+===================================================== */
+
+.card{
+
+    border:none;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    background:#fff;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.12);
+
+}
+
+.card-header{
+
+    font-weight:600;
+
+    border:none;
+
+    font-size:16px;
+
+}
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.btn{
+
+    border-radius:12px;
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.btn-primary{
+
+    background:#0d6efd;
+
+    border:none;
+
+}
+
+.btn-success{
+
+    border:none;
+
+}
+
+.btn-warning{
+
+    color:#fff;
+
+}
+
+.btn-danger{
+
+    border:none;
+
+}
+
+/* =====================================================
+   TABLE
+===================================================== */
+
+.table{
+
+    background:#fff;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    margin-bottom:0;
+
+}
+
+.table thead{
+
+    color:#fff;
+
+}
+
+.table td{
+
+    vertical-align:middle;
+
+}
+
+.table tbody tr{
+
+    transition:.25s;
+
+}
+
+.table tbody tr:hover{
+
+    background:#eef5ff;
+
+}
+
+/* =====================================================
+   FORM
+===================================================== */
+
+.form-control,
+.form-select{
+
+    border-radius:10px;
+
+    border:1px solid #d9e2ef;
+
+    box-shadow:none;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+    border-color:#0d6efd;
+
+    box-shadow:0 0 10px rgba(13,110,253,.2);
+
+}
+
+/* =====================================================
+   BADGE
+===================================================== */
+
+.badge{
+
+    padding:8px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+}
+
+/* =====================================================
+   MODAL
+===================================================== */
+
+.modal-content{
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer{
+
+    margin-top:45px;
+
+    background:#fff;
+
+    border-top:4px solid #0d6efd;
+
+    padding:22px;
+
+    text-align:center;
+
+    color:#6c757d;
+
+    box-shadow:0 -3px 15px rgba(0,0,0,.08);
+
+}
+
+footer h5{
+
+    color:#0d6efd;
+
+    font-weight:700;
+
+}
+
+footer .developer{
+
+    color:#0d6efd;
+
+    font-weight:600;
+
+}
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#0d6efd;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#edf1f7;
+
+}
+
+/* =====================================================
+   ANIMATION
+===================================================== */
+
+.card,
+.table,
+.btn{
+
+    animation:fadeUp .5s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
